@@ -1,7 +1,13 @@
 class MessagesController < ApplicationController
 
+	#before_action 
+
 	def index
-		
+		@messages = Message.all.order('created_at DESC')
+	end
+
+	def show
+		@message = Message.find(params[:id])
 	end
 
 	def new
@@ -22,9 +28,7 @@ class MessagesController < ApplicationController
 		
 	end	
 	
-	def show
-		
-	end
+	
 	
 
 	def destroy
