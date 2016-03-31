@@ -13,3 +13,6 @@ http://willschenk.com/setting-up-devise-with-twitter-and-facebook-and-other-omni
 Social Media button styling
 
 https://lipis.github.io/bootstrap-social/
+
+set your Config-vars in production
+https://devcenter.heroku.com/articles/config-vars
