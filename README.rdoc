@@ -1,3 +1,9 @@
 
 
+Used Devise and Omniauth-facebook
+
 http://willschenk.com/setting-up-devise-with-twitter-and-facebook-and-other-omniauth-schemes-without-email-addresses/#create-omniauthcallbackscontroller-to-pull-in-data
+
+Social Media button styling
+
+https://lipis.github.io/bootstrap-social/
